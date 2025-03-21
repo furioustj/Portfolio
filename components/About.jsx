@@ -42,8 +42,8 @@ const About = () => {
           <span className="text-white">Tailwind CSS</span>, with a strong focus on responsive design,
           animations using <span className="text-white">Framer Motion</span>, and smooth scrolling
           with <span className="text-white">react-scroll</span>. My designs integrate vibrant color
-          schemes like <span className="text-white">#821cf9</span> and typography with{' '}
-          <span className="text-white">Zilla Slab</span> for a consistent brand presence.
+          schemes like <span className="text-white">intuitive designs</span> and typography with{' '}
+          <span className="text-white">unique fonts</span> for a consistent brand presence.
         </motion.p>
 
         <motion.p
