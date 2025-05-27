@@ -2,7 +2,6 @@ import React from "react";
 import { Zilla_Slab } from "next/font/google";
 import "./globals.css";
 import ScrollToTop from "@/components/ScrollToTop";
-import ParticlesBackground from "@/components/ParticlesBackground";
 import Navbar from "@/components/Navbar"; // ✅ Add this!
 
 const zillaSlab = Zilla_Slab({
@@ -23,9 +22,6 @@ export default function RootLayout({ children }) {
       <body
         className={`${zillaSlab.variable} antialiased bg-[#0a0a0a] text-white relative overflow-x-hidden`}
       >
-        {/* Particle Background */}
-        <ParticlesBackground />
-
         {/* Navbar */}
         <Navbar />
 

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const About = () => {
   return (
-    <section id="about" className="py-20 px-4 bg-black text-white">
+    <section id="about" className="py-20 px-4 text-white">
       <div className="max-w-5xl mx-auto">
         <motion.h2
           initial={{ opacity: 0, y: -30 }}
@@ -56,7 +56,7 @@ const About = () => {
           well-versed in <span className="text-white">Node.js</span> and{' '}
           <span className="text-white">Express.js</span>, developing secure and efficient RESTful APIs.
           I have hands-on experience with <span className="text-white">PostgreSQL</span> and{' '}
-          <span className="text-white">MySQL</span>, designing relational database schemas and
+          <span className="text-white">MySQL, Firebase, and Supabase</span>, designing relational database schemas and
           optimizing query performance for scalable applications.
         </motion.p>
 
@@ -71,9 +71,8 @@ const About = () => {
           <span className="text-white">Next.js 15</span> and{' '}
           <span className="text-white">TypeScript</span>. It features user authentication,
           file upload/download, folder management, and real-time updates. Additionally, I developed
-          a <span className="text-white font-semibold">KML File Viewer</span>, an interactive
-          application for uploading and visualizing KML files on maps, with data parsing and intuitive
-          rendering of markers and paths.
+          a <span className="text-white font-semibold">Reddit Clone</span>, an interactive
+          application for uploading and posting posts about the latest trends, using Sanity for CMS platform management on the backend.
         </motion.p>
 
         <motion.p

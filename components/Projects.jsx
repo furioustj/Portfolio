@@ -20,6 +20,27 @@ const Projects = () => {
             image: '/images/KML-file-viewer.png',
             link: 'https://kml-viewer-darkmode.vercel.app/'
         },
+        {
+            id: 3,
+            title: 'Reddit Clone',
+            description: 'An interactive application for uploading and posting posts about the latest trends. It is built using React, Next.js, Sanity, and Typescript.',
+            image: '/images/Reddit-clone.png',
+            link: 'https://reddit-clone1-lyart.vercel.app//'
+        },
+        {
+            id: 4,
+            title: 'Ecommerce Store',
+            description: 'A full-stack ecommerce store application where users can browse products, add them to the cart, and make purchases.',
+            image: '/images/shopping-cart.png',
+            link: 'https://my-kart-ebon.vercel.app/'
+        },
+        {
+            id: 5,
+            title: 'Uber Clone',
+            description: 'A full-stack Uber clone application where users can book rides, view ride history, and manage their profiles.',
+            image: '/images/UberComfort.png',
+            link: 'https://uber-clone-ycyy.vercel.app/'
+        }
     ];
 
     return (

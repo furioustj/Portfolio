@@ -9,13 +9,11 @@ import Projects from '@/components/Projects';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import ScrollToTop from '@/components/ScrollToTop';
-import ParticlesBackground from '@/components/ParticlesBackground';
+
 
 const Page = () => {
   return (
     <main className="bg-[#0a0a0a] text-white relative overflow-hidden min-h-screen">
-      {/* Background Particles */}
-      <ParticlesBackground />
 
       {/* Scroll To Top Button */}
       <ScrollToTop />
