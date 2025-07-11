@@ -14,7 +14,7 @@ const Navbar = () => {
     { label: 'Contact', href: 'contact' },
   ];
 
-  const resumeLink = 'https://drive.google.com/file/d/177NsTmOfbnj3RR2EEKQTwHA068kmlswi/view?usp=sharing';
+  const resumeLink = 'https://drive.google.com/file/d/1og0KBE_Sh7_sKnVNwdpGjDWXSfg2CSmr/view?usp=drive_link';
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
