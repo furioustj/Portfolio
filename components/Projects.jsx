@@ -39,7 +39,7 @@ const Projects = () => {
             title: 'Uber Clone',
             description: 'A full-stack Uber clone application where users can book rides, view ride history, and manage their profiles.',
             image: '/images/UberComfort.png',
-            link: 'https://uber-clone-ycyy.vercel.app/'
+            link: 'https://uber-clone-liard-xi.vercel.app/'
         }
     ];
 
